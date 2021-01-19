@@ -2,7 +2,7 @@
 
 Keycloak is a centralized authentication and authorization server equipped with standard SSO(Single-Sign On) protocols like OAuth, SAML, etc.,
 
-Grafana is a visualization and monitoring tool with customized graphsm panels, dashboards.
+Grafana is a visualization and monitoring tool with the provision to create customized graphs, panels, dashboards, alerts, etc.,
 
 ## Settingup Keycloak, Grafana servers using Docker Compose
 docker-compose.yml
