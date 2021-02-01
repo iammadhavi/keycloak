@@ -1,0 +1,16 @@
+version: "2"
+services:
+ 
+  # grafana:
+  #   build: grafana
+  #   container_name: kyclk_grafana
+  #   ports:
+  #     - "5001:3000"
+
+  react_app:
+    build: ./KeyCloak-Docker-Compose
+    command: npm start
+    container_name: kyclk_react_app
+    ports:
+      - "3000:3000"
+
